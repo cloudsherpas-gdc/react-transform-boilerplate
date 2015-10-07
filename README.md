@@ -15,4 +15,5 @@ And then cd to `project_path` and do
 `npm install react --save`
 
 Development `npm start`
-Production `npm rnu build`
+
+Production `npm run build`
