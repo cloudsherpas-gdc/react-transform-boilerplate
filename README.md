@@ -6,7 +6,7 @@
 
 ## Usage
 
-Inside the repo folder, do `git archive master | tar -x -C project_path`
+Inside the repo folder, do `git archive vanilla | tar -x -C project_path`
 
 And then cd to `project_path` and do
 
