@@ -21,6 +21,18 @@ module.exports = {
       test: /\.js$/,
       loaders: ['babel'],
       include: path.join(__dirname, 'src')
+    }, {
+      test: /\.html$/,
+      loaders: ['html-loader'],
+      include: path.join(__dirname, 'src')
+    }, {
+      test: /\.css$/,
+      loaders: ['css-loader'],
+      include: path.join(__dirname, 'src')
+    }, {
+      test: /\.(png|woff|woff2|eot|ttf|svg)$/,
+      loaders: ['url-loader'],
+      include: path.join(__dirname, 'src')
     }]
   }
 };
